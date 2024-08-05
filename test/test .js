@@ -1,0 +1,5 @@
+HTMLFormControlsCollection.log ('hello ')
+HTMLFormControlsCollection.log ('hello ')
+HTMLFormControlsCollection.log ('hello ')
+HTMLFormControlsCollection.log ('hello ')
+HTMLFormControlsCollection.log ('hello ')
