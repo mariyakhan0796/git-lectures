@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events</title>
+</head>
+<body>
+    
+    <label for="username">Username</label>
+    <input type="text" name="username" value="" onkeydown="helloHandle()" onkeyup="hello2Handle()">
+    <br />
+    <label for="password">Password</label>
+
+    <input type="text" name="password" value="" onfocus="myFocusHandler(this)" onblur="myBlurHandler(this)">
+    <br>
+    <input type="text" name="test" value="0" oninput="valHandler(this)" >
+    <br>
+    <button type="button">Click me</button>
+
+    <br /><hr />
+
+    <span onclick="mHandler(this)"> hello </span>
+
+
+
+    <script src="./index.js"></script>
+</body>
+</html>
